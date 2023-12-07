@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+div {
+    width: 730px;
+    height: 850px;
+    background-color: rgb(241, 241, 241);
+    border-radius: 7px;
+    margin: auto;
+    margin-top: 30px;
+    padding: 15px;
+    box-shadow: 7px 7px 15px #521020;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.3em;
+    margin-top: 50px;
+    color: #223A41;
+    text-shadow: 0.5px 0.5px 1px #142327;
+}
+
+body {
+    background-color: #961D3C;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.02em;
+    font-weight: 400;
+    text-indent: 20px;
+    margin: 0px 15px;
+    text-align: justify;
+}
+
+h2 {
+    margin: 40px 0px 20px 50px;
+    font-size: 1.7em;
+    color: #1D7896;
+    text-shadow: 0.5px 0.5px 1px #176079;
+}

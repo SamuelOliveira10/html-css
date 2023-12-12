@@ -2,20 +2,36 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+}
+
+body {
+    background-color: #0096F4;
+}
+
+div {
+    width: 750px;
+    background-color: white;
+    margin: auto;
+    height: 850px;
+    margin-top: 45px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
 }
 
 h1 {
-    margin-top: 30px;
-    margin-left: 30px;
-    font-size: 1.9em;
+    text-align: center;;
+    font-size: 2.3em;
+    padding: 35px;
+    color: #003557;
 }
 
 h2 {
-    margin: 30px 75px;
+    padding: 30px 75px;
 }
 
 a {
-   color: black; 
+   color: #004F7F; 
    font-weight: normal;
    font-size: 1.2em;
    line-height: 1.3em;
@@ -23,5 +39,6 @@ a {
 }
 
 a:hover {
+
     font-weight: bold;
 }

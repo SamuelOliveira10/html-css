@@ -10,7 +10,7 @@ body {
 
 div#main {
     max-width: 700px;
-    min-width: 350px;
+    min-width: 280px;
     padding: 50px 20px;
     background-color: white;
     margin: auto;
@@ -31,9 +31,13 @@ h2 {
     margin-bottom: 0px;
 }
 
+h2 > a {
+    color: #004F7F; 
+    font-weight: normal;
+}
+
 a {
-   color: #004F7F; 
-   font-weight: normal;
+   color: black;
    font-size: 1.2em;
    line-height: 1.3em;
    text-decoration: none;

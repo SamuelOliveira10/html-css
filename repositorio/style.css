@@ -2,32 +2,33 @@
 
 * {
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0px;
 }
 
 body {
     background-color: #0096F4;
 }
 
-div {
-    width: 750px;
+div#main {
+    max-width: 700px;
+    min-width: 350px;
+    padding: 50px 20px;
     background-color: white;
     margin: auto;
-    height: 850px;
+    height: 750px;
     margin-top: 45px;
     border-radius: 7px;
     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.377);
 }
 
 h1 {
-    text-align: center;;
-    font-size: 2.3em;
-    padding: 35px;
+    text-align: center;
+    padding: 25px;
     color: #003557;
 }
 
 h2 {
-    padding: 30px 75px;
+    padding-bottom: 15px;
+    margin-bottom: 0px;
 }
 
 a {
@@ -39,6 +40,23 @@ a {
 }
 
 a:hover {
-
     font-weight: bold;
+}
+
+div.modulo {
+    width: 300px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+div> ul {
+    padding-left: 50px;
+    line-height: 1.2em;
+    margin-top: 0px;
+    margin-bottom: 25px;
+    display: none;
+}
+
+div:hover > ul{
+    display: block;
 }

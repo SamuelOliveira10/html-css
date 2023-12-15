@@ -5,27 +5,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de Imagem de Fundo</title>
     <style>
+
+        body {
+            background-image: url('imagens/wallpaper002.jpg');
+        }
+
         div.quadrado {
-            border: 2.5px solid darkblue;
+            border: 5px solid darkred;
             display: inline-block;
-            border: 10px;
-            background-color: greenyellow;
+            border-radius: 7px;
+            background-color: skyblue;
             width: 250px;
             height: 250px;
             margin: 10px;
         }
+
+        div#q1 {
+            background-color: cadetblue;
+        }
+
+        div#q2 {
+            background-image: linear-gradient(to top, blue, darkred);
+        }
+
+        div#q3 {
+            background-image: url('imagens/pattern001.png');
+        }
     </style>
 </head>
-<body>
-    <div class="qudrado" id="q1">
+<body style="background-color: bisque;">
+    <div class="quadrado" id="q1">
 
     </div>
 
-    <div class="qudrado" id="q23">
+    <div class="quadrado" id="q2">
 
     </div>
 
-    <div class="qudrado" id="q3">
+    <div class="quadrado" id="q3">
 
     </div>
 </body>

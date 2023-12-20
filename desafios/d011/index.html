@@ -7,35 +7,40 @@
     <style>
         * {
             margin: 0px;
-            padding: 0px;
         }
-        div#espaco {
+
+        body {
+            background-color: black;
+        }
+
+
+        #espaco {
+            background-image: url(imagens/espaco.jpg);
+            height: 100vh;
+            background-size: cover;
+            background-position: center
+
             position: relative;
-            top: 0px;
-            left: 0px;
         }
 
-        div#astronauta {
+        #astronauta {
+            background-image: url(imagens/astronauta.png);
+            background-size: 100% 100%;
+            width: 500px;
+            height: 500px;
+
             position: absolute;
-            top: 230px;
-            left: 630px;
-        }
-
-        img#esp {
-            width: 100%;
-        }
-
-        img#ast {
-            width: 100%;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
         }
     </style>
 </head>
 <body>
-        <div id="espaco">
-            <img id="esp" src="imagens/espaco.jpg" alt="Espaço">
-        </div>
+    <div id="espaco">
         <div id="astronauta">
-            <img id="ast" src="imagens/astronauta.png" alt="Astronauta">
+
         </div>
+    </div>
 </body>
 </html>

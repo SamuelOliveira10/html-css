@@ -19,7 +19,7 @@ header {
 
 header > h1 {
     font-family: var(--fonte1);
-    font-size: 7em;
+    font-size: 10.5em;
     padding-top: 50px;
 }
 
@@ -41,7 +41,7 @@ a:hover {
 
 section > p {
     font-family: var(--fonte2);
-    font-size: 2.7em;
+    font-size: 3.7em;
     margin: 50px 15px;
 }
 
@@ -66,7 +66,7 @@ footer {
     background-color: black;
     color: white;
     font-family: var(--fonte0);
-    font-size: 0.8em;
-    padding: 5px;
+    font-size: 1em;
+    padding: 10px;
     text-align: center;
 }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe#tela {
+            width: 95vw;
+            height: 450px;
+            border: 3px dashed black;
+            margin: auto;
+            display: block;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        a:active {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi distinctio quo dignissimos esse provident odio perspiciatis labore delectus? Neque tempore aperiam vitae sit recusandae praesentium aut, natus impedit earum. Mollitia.</p>
+
+    <ul>
+        <li><a href="paginas-extras/pag001.html" target="frame">Primeira página</a></li>
+        <li><a href="paginas-extras/pag002.html" target="frame">Segunda página</a></li>
+        <li><a href="paginas-extras/pag003.html" target="frame">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam libero quisquam itaque, totam unde culpa nemo magni reprehenderit et optio laboriosam illo blanditiis incidunt in dolor rerum iste. Quis, tenetur!</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Suscipit, consequatur doloremque! Vero labore optio maiores id, assumenda explicabo in voluptatum provident distinctio sed voluptatem harum laboriosam adipisci accusantium voluptatibus veniam. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam, omnis est in, corporis eos libero reprehenderit id sequi voluptate dicta impedit maxime aperiam cum nihil corrupti? Atque adipisci perferendis obcaecati.</p>" id="tela" name="frame">
+        <p>Infelizmente seu navegador não é compatível com isso.</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione modi sed, nihil voluptas saepe vero minima explicabo sapiente ipsa dicta delectus iusto iste aut praesentium laborum mollitia sunt fuga incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id eius molestias assumenda blanditiis voluptatum iusto excepturi, delectus repudiandae corrupti possimus animi odit esse doloribus numquam voluptatibus ullam accusamus nisi. Harum.</p>
+</body>
+</html>

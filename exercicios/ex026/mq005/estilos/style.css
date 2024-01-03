@@ -12,31 +12,31 @@ header {
 }
 
 header > h1 {
-    padding: 30px;
+    padding: 50px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.548);
 }
 
 span#burguer {
-    background-color: rgb(48, 127, 158);
+    background-color: rgb(78, 160, 192);
     width: 100vw;
     padding: 10px 0px;
 }
 
 li:hover, #burguer:hover {
-    background-color: rgb(29, 100, 128);
+    background-color: rgb(42, 140, 179);
     cursor: pointer;
-    border: 1px solid rgb(17, 58, 75);
+    border: 1px solid rgba(29, 98, 128, 0.753);
 }
 
 menu {
     display: none;
-    background-color: rgb(48, 127, 158);
+    background-color: rgb(78, 160, 192);
 }
 
 menu li {
     padding: 12px;
+    list-style-type: none;
 }
-
-
 
 menu a {
     color: white;
@@ -58,6 +58,7 @@ main > h2 {
 
 main p {
     padding: 10px;
-    text-indent: 25px;
+    text-indent: 30px;
     line-height: 1.7em;
+    font-size: 1.1em;
 }

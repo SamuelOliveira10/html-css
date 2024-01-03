@@ -6,11 +6,12 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/grandes.css" media="screen and (min-width: 769px)">
 </head>
-<body>
+<body onresize="mudou()">
     <header>
         <h1>Meu Site</h1>
-        <span id="burguer" onclick="clickMenu()" class="material-icons">menu</span>
+        <span id="burguer" onclick="clicou()" class="material-icons">menu</span>
         <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
@@ -18,6 +19,9 @@
                 <li><a href="#">Opção 3</a></li>
                 <li><a href="#">Opção 4</a></li>
                 <li><a href="#">Opção 5</a></li>
+                <li><a href="#">Opção 6</a></li>
+                <li><a href="#">Opção 7</a></li>
+                <li><a href="#">Opção 8</a></li>
             </ul>
         </menu>
     </header>
@@ -30,10 +34,23 @@
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit aperiam voluptatem voluptatibus beatae expedita sunt, nam, iure assumenda iste explicabo aliquid ipsam! Ut sunt earum deleniti. Maxime atque vel tempore. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos dolore distinctio laudantium velit accusantium illo, temporibus sequi enim non molestiae libero natus? Sint aliquid omnis repudiandae dolores incidunt, ad debitis. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt eum quisquam, ipsum ea tenetur placeat fuga vero magnam possimus fugit obcaecati exercitationem laborum vel eaque saepe quas vitae facilis? Impedit.</p>
 
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, quas. Blanditiis obcaecati illo repellat libero? Consectetur laborum omnis facere qui possimus laboriosam voluptate. Alias dignissimos nobis tempore. Autem, asperiores deserunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque voluptates architecto similique nobis id sequi doloremque eum consequuntur, error nihil maxime aperiam ipsa placeat tempore aut assumenda omnis dolorum pariatur. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti illum, quia earum, illo, natus esse quo nobis error maiores commodi ipsum beatae in obcaecati corporis nam? Culpa natus et aspernatur.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium ab, maxime eaque ducimus recusandae dolore cum accusamus distinctio harum aut quisquam in ipsam iste molestias? Itaque unde assumenda repellat deleniti. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur accusantium illum quia commodi quisquam ullam repellendus similique rerum totam reiciendis. Ipsa aspernatur amet cumque exercitationem sequi dolores, mollitia consequuntur minima? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta nulla esse dignissimos, voluptatem dolorum in hic adipisci! Deleniti impedit voluptate facilis quisquam. Magni, tempore autem suscipit doloribus in consequatur iure.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Provident sapiente fugit ut iusto eos! Assumenda, expedita reprehenderit? Exercitationem, dolorum harum sed in natus ab iste repellendus, officia consequatur illum odit. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione cum laudantium pariatur repellat quibusdam odio iure, mollitia perferendis animi exercitationem laboriosam fugiat porro. Mollitia, libero laborum? Repellendus tempore reprehenderit labore! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, accusantium impedit temporibus molestias veniam vitae magni aut ullam aliquid voluptates ipsam illum voluptas saepe nihil recusandae eum dolor reiciendis exercitationem.</p>
     </main>
 
     <script>
-        function clickMenu() {
+        function mudou() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clicou() {
             if (itens.style.display == 'block') {
                 itens.style.display = 'none'
             }

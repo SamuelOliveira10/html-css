@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Box</title>
+    <style>
+        * {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        main {
+            flex-wrap: nowrap;
+
+            padding: 10px;
+            height: calc(100vh - 20px);
+            background-color: bisque;
+
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            /* flex-wrap: wrap; */
+            align-content: center;
+            gap: 15px 30px;
+        }
+
+        div {
+            width: 100px;
+            height: 100px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        div.bloco-1 {
+            background-color: lightblue;
+
+            order: 0;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+
+            /* SHORT-HAND */
+
+            flex: 0 1 auto;
+
+            align-self: flex-start;
+        }
+
+        div.bloco-2 {
+            background-color: plum;
+
+            order: 0;
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+
+            /* SHORT-HAND */
+
+            flex: 0 1 auto;
+
+            align-self: center;
+        }
+
+        div.bloco-3 {
+            background-color: lightcoral;
+
+            order: 0;
+
+            flex-grow: 0;
+            flex-shrink: 1;
+            flex-basis: auto;
+
+            /* SHORT-HAND */
+
+            flex: 0 1 auto;
+
+            align-self: flex-end;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <div class="bloco-1">1</div>
+        <div class="bloco-2">2</div>
+        <div class="bloco-3">3</div>
+        <!-- <div class="bloco-1">4</div>
+        <div class="bloco-2">5</div>
+        <div class="bloco-3">6</div>
+        <div class="bloco-1">7</div>
+        <div class="bloco-2">8</div>
+        <div class="bloco-3">9</div>
+        <div class="bloco-1">10</div>
+        <div class="bloco-2">11</div>
+        <div class="bloco-3">12</div> -->
+    </main>
+</body>
+</html>
